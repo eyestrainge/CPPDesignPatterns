@@ -46,3 +46,7 @@
 *.idb
 *.pdb
 *.ilk
+
+# Boost related
+*.props
+*.exp
