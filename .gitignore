@@ -46,6 +46,7 @@
 *.idb
 *.pdb
 *.ilk
+*.opendb
 
 # Boost related
 *.props
