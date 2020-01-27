@@ -1,10 +1,10 @@
 #pragma once
 
+#include <string>
+#include <vector>
+#include <map>
 #include <iostream>
 #include <fstream>
-#include <string>
-#include <map>
-#include <vector>
 #include <boost/lexical_cast.hpp>
 
 class SingletonDatabase
@@ -15,7 +15,7 @@ class SingletonDatabase
 	{
 		std::cout << "Initializing database" << std::endl;
 
-		std::ifstream ifs("capitals.txt");
+		std::ifstream ifs("src/capitals.txt");
 		std::string s, s2;
 
 		while (std::getline(ifs, s))

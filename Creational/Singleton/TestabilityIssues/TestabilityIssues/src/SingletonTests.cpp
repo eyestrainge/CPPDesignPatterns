@@ -19,10 +19,6 @@ TEST(RecordFinderTest, SingletonTotalPopulationTest)
 
 int main(int ac, char* av[])
 {
-	SingletonRecordFinder rf2;
-	std::vector<std::string> names{ "Seoul", "Mexico City" };
-	int tp2 = rf2.total_population(names);
-
 	testing::InitGoogleTest(&ac, av);
 	return RUN_ALL_TESTS();
 }
