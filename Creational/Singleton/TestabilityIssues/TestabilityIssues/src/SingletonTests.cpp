@@ -9,7 +9,7 @@ TEST(DatabaseTests, IsSingletonTest)
 	ASSERT_EQ(1, db2.instance_count);
 }
 
-TEST(RecordFinderTest, SingletonTotalPopulationTest)
+TEST(RecordFinderTests, SingletonTotalPopulationTest)
 {
 	SingletonRecordFinder rf;
 	std::vector<std::string> names{ "Seoul", "Mexico City" };
