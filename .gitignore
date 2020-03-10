@@ -48,6 +48,9 @@
 *.ilk
 *.opendb
 *.res
+*.sdf
+*.db-shm
+*.db-wal
 
 # Boost related
 *.props
